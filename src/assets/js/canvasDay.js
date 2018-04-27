@@ -112,7 +112,6 @@ var canvas  = document.getElementById('canvas'),
 
 setCanvasSize();
 init();
-
 function setCanvasSize() {
   WIDTH = document.documentElement.clientWidth,
     HEIGHT = document.documentElement.clientHeight;
@@ -188,3 +187,4 @@ function degToRad(deg) {
   return deg * (Math.PI / 180);
 }
 }
+console.log("aaa");
