@@ -1,5 +1,5 @@
 .bannerCon {
-  height: 968px;
+  height: 800px;
   width:100%;
   position: relative;
   min-width: 1200px;
@@ -17,7 +17,7 @@
 }
 .bannerCon>h1 {
   position: absolute;
-  top:240px;
+  top:100px;
   width: 100%;
   height: 100px;
   line-height: 100px;
@@ -27,7 +27,7 @@
 }
 .bannerCon>h2 {
   position: absolute;
-  top:360px;
+  top:180px;
   width: 100%;
   height: 70px;
   line-height: 70px;
@@ -37,10 +37,10 @@
 }
 .sweep {
   position: absolute;
-  top:450px;
+  top:260px;
   width: 200px;
-  height: 70px;
-  line-height: 70px;
+  height: 60px;
+  line-height: 60px;
   text-align: center;
   left: 50%;
   margin-left: -100px;
@@ -53,6 +53,6 @@
   position: absolute;
   bottom:0;
   width: 100%;
-  height: 344px;
+  height: 447px;
   text-align: center;
 }

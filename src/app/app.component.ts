@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   countTime = new Date().getHours();
+  get nowTime() {
+    return `${this.countTime}`;
+  }
 }
