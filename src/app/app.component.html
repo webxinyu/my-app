@@ -9,13 +9,10 @@
 
 <app-four-classify></app-four-classify>
 <!-- 白天 -->
-<app-count-bottom *ngIf="countTime <= 18"></app-count-bottom>
+<app-count-bottom *ngIf="countTime >= 18"></app-count-bottom>
 <!-- 夜间 -->
-<app-count-for *ngIf="countTime > 18"></app-count-for>
+<app-count-for *ngIf="countTime < 18"></app-count-for>
 <app-travel-meaning></app-travel-meaning>
-<p style="color: #ff0000">
-  {{nowTime}}
-</p>
 <app-footer-content></app-footer-content>
 <!-- 白天 -->
 <script src="../assets/js/canvasDay.js"></script>
