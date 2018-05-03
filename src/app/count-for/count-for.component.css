@@ -2,6 +2,8 @@
   height: 700px;
   position: relative;
   margin-top: 48px;
+  overflow: hidden;
+  background: #000;
 }
 .typePage>h1 {
   height: 128px;
@@ -20,6 +22,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: block;
 }
 .countForList {        /* 价值列表 */
   position: absolute;

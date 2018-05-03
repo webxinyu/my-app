@@ -8,6 +8,7 @@ import { CountForComponent } from './count-for/count-for.component';
 import { TravelMeaningComponent } from './travel-meaning/travel-meaning.component';
 import { FooterContentComponent } from './footer-content/footer-content.component';
 import { CountBottomComponent } from './count-bottom/count-bottom.component';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CountBottomComponent } from './count-bottom/count-bottom.component';
     CountForComponent,
     TravelMeaningComponent,
     FooterContentComponent,
-    CountBottomComponent
+    CountBottomComponent,
+    NavigationBarComponent
   ],
   imports: [
     BrowserModule

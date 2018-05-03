@@ -4,10 +4,17 @@
   position: relative;
   min-width: 1200px;
 }
-.bannerCon>img {
+.bannerCon>img {    /* banner */
   width:100%;
   height:100%;
   display: block;
+}
+.indexNav {     /* 导航 */
+  background: rgba(255,255,255,0.4);
+  height: 46px;
+  position: absolute;
+  right:100px;
+  top:30px;
 }
 .logo {
   position: absolute;
