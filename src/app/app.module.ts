@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { FourClassifyComponent } from './four-classify/four-classify.component';
@@ -13,15 +12,11 @@ import { ArticleListComponent } from './article-list/article-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
-const appRoutes: Routes = [
-  {
-    path: 'article-list',
-    component: ArticleListComponent,
-    data: { title: '推荐内容' }
-  },
-  { path: '',   redirectTo: '/', pathMatch: 'full' },
-  { path: '**', component: PageNotFoundComponent }
-];
+import { HomeComponent } from './home/home.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { routing } from "./app.routes";
+
+
 
 @NgModule({
   declarations: [
@@ -33,14 +28,13 @@ const appRoutes: Routes = [
     CountBottomComponent,
     NavigationBarComponent,
     ArticleListComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HomeComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
-    )
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

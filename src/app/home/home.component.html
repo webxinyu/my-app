@@ -1,0 +1,25 @@
+<div class="bannerCon">
+  <img src="../../assets/img/banner.png" />
+  <nav class="logo"><img src="../../assets/img/logo.png"></nav>
+  <div class="indexNav">
+    <app-navigation-bar></app-navigation-bar>
+  </div>
+  <h1>竹叶网</h1>
+  <h2>探索果蔬奥秘，走向健康人生</h2>
+  <p class="sweep">扫一扫关注公众号</p>
+  <h5><img src="../../assets/img/qrcode_zy.png" /></h5>
+</div>
+<app-four-classify></app-four-classify>
+<!-- 白天 -->
+<app-count-bottom *ngIf="true"></app-count-bottom>
+<!-- 夜间
+<app-count-for *ngIf="countTime < 18"></app-count-for>
+ -->
+<app-travel-meaning></app-travel-meaning>
+<app-footer-content></app-footer-content>
+
+<!-- 白天 -->
+<script src="../../assets/js/canvasDay.js"></script>
+<!-- 夜间
+<script src="../assets/js/canvasNight.js"></script>
+-->

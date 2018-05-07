@@ -1,0 +1,19 @@
+typePage {
+
+}
+.listBanner {
+  height:400px;
+  min-width: 1120px;
+  position: relative;
+}
+.listBanner img {       /* banner图 */
+  height: 100%;
+  width: 100%;
+}
+.listNav {        /* 导航 */
+  background: rgba(255,255,255,0.4);
+  height: 46px;
+  position: absolute;
+  right:100px;
+  top:30px;
+}

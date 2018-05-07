@@ -1,0 +1,65 @@
+.bannerCon {
+  height: 800px;
+  width:100%;
+  position: relative;
+  min-width: 1200px;
+}
+.bannerCon>img {    /* banner */
+  width:100%;
+  height:100%;
+  display: block;
+}
+.indexNav {     /* 导航 */
+  background: rgba(255,255,255,0.4);
+  height: 46px;
+  position: absolute;
+  right:100px;
+  top:30px;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70px;
+}
+.bannerCon>h1 {
+  position: absolute;
+  top:100px;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+  font-size:45px;
+}
+.bannerCon>h2 {
+  position: absolute;
+  top:180px;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
+  font-size:23px;
+}
+.sweep {
+  position: absolute;
+  top:260px;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  left: 50%;
+  margin-left: -100px;
+  border-radius: 20px;
+  color: #fff;
+  font-size:20px;
+  background: #f00;
+}
+.bannerCon h5 {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 447px;
+  text-align: center;
+}
