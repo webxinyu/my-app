@@ -17,3 +17,13 @@ typePage {
   right:100px;
   top:30px;
 }
+.listCon {          /* 文章列表 */
+  width: 1120px;
+  margin:0 auto;
+  margin-top: 40px;
+}
+.listCon h1 {
+  height: 40px;
+  line-height: 40px;
+  font-size:22px;
+}
