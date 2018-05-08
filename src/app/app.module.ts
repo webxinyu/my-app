@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { UnlessDirective } from "./unless.directive";
 
 import { AppComponent } from './app.component';
 import { FourClassifyComponent } from './four-classify/four-classify.component';
@@ -30,7 +31,8 @@ import { routing } from "./app.routes";
     ArticleListComponent,
     PageNotFoundComponent,
     HomeComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,

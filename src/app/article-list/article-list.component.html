@@ -27,7 +27,7 @@
             猕猴桃不紧能起到这些疾病的治疗价值。还具有帮助消化、保护心脏，稳定情绪的作用。这么一种神奇的水果，
             平时可要记得吃哟！当然凡事都要讲究度。水果也是要适量食用才能更好的保障我们的健康。
           </h3>
-          <span>查看详情</span>
+          <span (click)="condition = !condition" [ngClass] = "{ 'a': condition, 'b': !condition }">查看详情</span>
         </div>
       </li>
       <li>
@@ -43,7 +43,7 @@
             当然，任何事情都要适当才为最佳。因为西瓜含有很高的糖分，因此患有糖尿病的患者应尽量减少西瓜的使用。
             喜欢的小伙伴记得点赞分享哟！！！！！！！！！！
           </h3>
-          <span>查看详情</span>
+          <span (click)="condition = !condition" [ngClass] = "{ 'a': condition, 'b': !condition }">查看详情</span>
         </div>
       </li>
       <li>
@@ -62,9 +62,16 @@
             3、葡萄籽可以扩张血管，疏通脉络已达到滋润皮肤的功效，并具有消除雀斑和黄褐斑的作用。
             由此看来无论葡萄皮和葡萄籽都对我们的健康有很大的价值。因此我们可以做一个“吃葡萄不吐葡萄皮”的人了。但一定记得吃葡萄之前一定要清晰干净哟！
           </h3>
-          <span>查看详情</span>
+          <span (click)="condition = !condition" [ngClass] = "{ 'a': condition, 'b': !condition }">查看详情</span>
         </div>
       </li>
     </ul>
   </section>
+  <div *appUnless="condition" class="unless a" (click)="condition = !condition" [ngClass] = "{ 'a': condition, 'b': !condition }">
+    <div class="qrCode">
+      <h2>扫一扫关注公众号</h2>
+      <img src="../../assets/img/qrcode_zy.jpg" />
+      <span>&Chi;</span>
+    </div>
+  </div>
 </div>

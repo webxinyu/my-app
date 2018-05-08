@@ -3,9 +3,10 @@ typePage {
 }
 .listBanner {
   height:400px;
+  width: 100% !important;
   min-width: 1200px;
   position: relative;
-  background: url("../../assets/img/listBanner.png") no-repeat white 50%;
+  background: url("../../assets/img/banner02.png") 50% 50% no-repeat scroll white;
 }
 .listBanner img {       /* banner图 */
   height: 100%;
@@ -81,4 +82,46 @@ typePage {
   right:20px;
   top:40px;
   font-size: 14px;
+  cursor: pointer;
+}
+.unless {      /* 二维码的蒙层 */
+  position: fixed;
+  background: rgba(0,0,0,0.5);
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 999;
+}
+.qrCode {
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  left:50%;
+  margin-left: -250px;
+  top:50%;
+  margin-top:-200px;
+  text-align: center;
+}
+.qrCode>h2 {
+  height: 56px;
+  line-height:56px;
+  color: #fff;
+  font-size: 28px;
+}
+.qrCode>span {      /* 关闭按钮 */
+  display: block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size:30px;
+  font-weight: 100;
+  border:1px #666 solid;
+  border-radius: 50%;
+  background: #fff;
+  color: #666;
+  position: absolute;
+  right:0px;
+  top: 0px;
 }
