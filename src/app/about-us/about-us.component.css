@@ -1,0 +1,122 @@
+header {
+  height: 400px;
+  min-width: 1200px;
+  position: relative;
+  background: url("../../assets/img/listBanner.png") no-repeat white 50%;
+}
+header>img {
+  width: 100%;
+  height: 400px;
+}
+.logo {       /* logo */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.aboutNav {         /* 导航 */
+  background: rgba(255,255,255,0.4);
+  height: 46px;
+  position: absolute;
+  right:100px;
+  top:30px;
+}
+.companyProfile {       /* 平台简介 */
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 200px;
+}
+.aboutUs {
+  background: #fff;
+  padding:40px 80px;
+  box-shadow: 5px 5px 5px #ccc;
+  position: absolute;
+  top: -100px;
+}
+.aboutUs>h2 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 26px;
+}
+.aboutUs>h3 {
+  height: 50px;
+  line-height: 25px;
+  font-size:16px;
+  margin:15px 0;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.aboutUs>h4 {
+  height: 60px;
+  line-height: 20px;
+  font-size:12px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.title {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size:30px;
+}
+.imgCon {         /* 图文简介 */
+  height: 300px;
+  padding:10px 200px;
+  overflow: hidden;
+}
+.imgCon>img {
+  float: left;
+  height: 280px;
+  width: 280px;
+}
+.imgCon>p {
+  float: right;
+  height: 280px;
+  line-height: 25px;
+  padding:30px 0;
+  width:400px;
+  font-size:13px;
+}
+article {
+  height: 300px;
+  width: 1200px;
+  margin:40px auto;
+}
+article>img {
+  width: 100%;
+  height:300px;
+}
+.sixModul {       /* 六大模块 */
+  padding:0 150px;
+  width: 900px;
+  display: flex;
+  margin:0 auto;
+  flex-wrap: wrap;
+}
+.sixModul li {
+  width: 300px;
+  height: 300px;
+  background: #eee;
+}
+.sixModul li>img {
+  height: 300px;
+  width: 300px;
+}
+.sixModul li>h3 {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size:24px;
+}
+.sixModul li>p {
+  height: 200px;
+  line-height:18px;
+  font-size:14px;
+  padding:0 30px;
+}

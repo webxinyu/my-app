@@ -3,8 +3,9 @@ typePage {
 }
 .listBanner {
   height:400px;
-  min-width: 1120px;
+  min-width: 1200px;
   position: relative;
+  background: url("../../assets/img/listBanner.png") no-repeat white 50%;
 }
 .listBanner img {       /* banner图 */
   height: 100%;
@@ -17,6 +18,11 @@ typePage {
   right:100px;
   top:30px;
 }
+.logo {       /* logo */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .listCon {          /* 文章列表 */
   width: 1120px;
   margin:0 auto;
@@ -28,7 +34,7 @@ typePage {
   font-size:22px;
 }
 .listCon ul {
-  width: 1120px;
+  width: 1200px;
 }
 .listCon ul li {
   overflow: hidden;
