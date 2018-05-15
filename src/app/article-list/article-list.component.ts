@@ -1,6 +1,6 @@
-import { Component, OnInit, Directive, Input, TemplateRef, ViewContainerRef  } from '@angular/core';
+import { Component, OnInit, Directive } from '@angular/core';
 
-@Directive({ selector: '[popUpclass]'});
+
 
 @Component({
   selector: 'app-article-list',
@@ -8,10 +8,9 @@ import { Component, OnInit, Directive, Input, TemplateRef, ViewContainerRef  } f
   styleUrls: ['./article-list.component.css']
 })
 
+@Directive({ selector: '[appUnless]'})
 export class ArticleListComponent implements OnInit {
   condition = true;
-  showSad = true;
-  status = 'ready';
   constructor() { }
 
 

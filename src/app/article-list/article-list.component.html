@@ -9,7 +9,7 @@
     <h1>文章列表</h1>
     <ul>
       <li>
-        <img src="../../assets/img/900.jpg" />
+        <img src="../../assets/img/900.jpg" alt="竹叶网" />
         <div class="notice">
           <h2>熬夜答题记得多吃水果哟</h2>
           <h3>
@@ -31,7 +31,7 @@
         </div>
       </li>
       <li>
-        <img src="../../assets/img/xigua.jpg" />
+        <img src="../../assets/img/xigua.jpg" alt="果蔬养生" />
         <div class="notice">
           <h2>五月开启吃瓜季</h2>
           <h3>
@@ -47,7 +47,7 @@
         </div>
       </li>
       <li>
-        <img src="../../assets/img/putao02.jpg" />
+        <img src="../../assets/img/putao02.jpg" alt="养生资讯" />
         <div class="notice">
           <h2>吃葡萄不吐葡萄皮</h2>
           <h3>
@@ -65,6 +65,23 @@
           <span (click)="condition = !condition" [ngClass] = "{ 'a': condition, 'b': !condition }">查看详情</span>
         </div>
       </li>
+      <li>
+        <img src="../../assets/img/lvxing01.jpg" alt="农业旅游" />
+        <div class="notice">
+          <h2>旅行-诗和远方</h2>
+          <h3>
+            旅行不仅是身体去了一个遥远的地方。更多时候而是心灵去了一个遥远的地方。
+            因为生活节奏的加快，工作压力的增大。我们去旅行往往忘记了旅行的真正意义。
+            我们总是赶着时间去到达一个目的地，到了之后又赶紧的拍照，赶紧的逛完所有的景点。
+            我们似乎一直在赶时间，却忘记了，沿途的风景和行走的每一步才是旅行的意义。
+            有时风景和旅行就在我们身边。一片落叶，我们看到了秋去冬来的四季变换；一条小溪，
+            让我们感受到了时间的流逝和一区不复返；一座彩虹桥，带我们领略雨后天晴是多么的喜悦和轻松；
+            一朵小花，告诉了我们这是个五彩斑斓的世界。
+            生活很辛苦，记得给自己的心灵放个假。去享受一下生命，去感受一下大自然给我们的恩赐。
+          </h3>
+          <span (click)="condition = !condition" [ngClass] = "{ 'a': condition, 'b': !condition }">查看详情</span>
+        </div>
+      </li>
     </ul>
   </section>
   <div *appUnless="condition" class="unless a" (click)="condition = !condition" [ngClass] = "{ 'a': condition, 'b': !condition }">
@@ -75,3 +92,4 @@
     </div>
   </div>
 </div>
+<app-footer-content></app-footer-content>
