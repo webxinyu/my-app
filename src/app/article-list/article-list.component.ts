@@ -1,6 +1,4 @@
-import { Component, OnInit, Directive } from '@angular/core';
-
-
+import { Component, OnInit, Directive  } from '@angular/core';
 
 @Component({
   selector: 'app-article-list',
@@ -8,7 +6,7 @@ import { Component, OnInit, Directive } from '@angular/core';
   styleUrls: ['./article-list.component.css']
 })
 
-@Directive({ selector: '[appUnless]'})
+
 export class ArticleListComponent implements OnInit {
   condition = true;
   constructor() { }

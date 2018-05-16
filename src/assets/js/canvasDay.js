@@ -1,4 +1,4 @@
-document.ready = function(){
+
 function Star(id, x, y){
   this.id = id;
   this.x = x;
@@ -186,4 +186,4 @@ function drawIfMouseMoving(){
 function degToRad(deg) {
   return deg * (Math.PI / 180);
 }
-}
+

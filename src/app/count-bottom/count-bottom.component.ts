@@ -11,6 +11,8 @@ export class CountBottomComponent implements OnInit {
 
   ngOnInit() {
     /* ********************** 白天 *********************** */
+
+
   }
 
 }
